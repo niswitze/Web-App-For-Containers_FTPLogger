@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "StorageAccountConnectionString-ShouldComeFromKeyVault",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ftpUserName": "DeploymentCredentialUserName-ShouldComeFromKeyVault",
+    "passWord": "DeploymentCredentialPassword-ShouldComeFromKeyVault",
+    "ftpSite": "ftpSite-ShouldComeFromKeyVault",
+    "WEBSITE_TIME_ZONE": "Central Standard Time",
+    "containerName": "blobContainerWhereLogsWillBeStored-ShouldComeFromKeyVault"
+  }
+}
